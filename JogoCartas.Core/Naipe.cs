@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace JogoCartas.Core
 {
-    internal class Naipe
+    public enum Naipe
     {
+        Copas,
+        Ouros,
+        Espadas,
+        Paus
     }
 }

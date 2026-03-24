@@ -6,8 +6,20 @@ using System.Threading.Tasks;
 
 namespace JogoCartas.Core
 {
-    internal class NumeracaoCarta
+    public enum NumeracaoCarta
     {
-
+        Dois = 2,
+        Tres,
+        Quatro,
+        Cinco,
+        Seis,
+        Sete,
+        Oito,
+        Nove,
+        Dez,
+        Valete,
+        Dama,
+        Rei,
+        As
     }
 }
